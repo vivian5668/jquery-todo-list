@@ -1,0 +1,59 @@
+.listButton {
+	padding: 2px;
+	color: red;
+	margin: 10px;
+	font-family: 'Sofia';
+	background-color: transparent;
+	vertical-align: top;
+}
+
+#submitButton {
+	font-family: 'Sofia';
+}
+
+h1 {
+	color: white;
+
+
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 10%;
+    height: 10px;
+    border: 1px solid #555;
+    outline: none;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+input[type=text]:focus {
+    background-color: white;
+}
+
+body {
+	text-align: center;
+	background: linear-gradient(to right, #3071db, #11d7db);
+    font-family: 'Sofia';
+}
+
+}
+div {
+	width: 50%;
+	margin: 0 auto;
+	background: linear-gradient(to right, #3071db, #11d7db);
+}
+
+ul {
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+form {
+	color: white;
+
+}
