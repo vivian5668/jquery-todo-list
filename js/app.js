@@ -7,7 +7,7 @@ $(document).ready(function() {
 		var newItem = $('<li>');
 		newItem.html($('#input').val());
 
-		var btn = $('<button>');
+		var btn = $('<button>'); //create delete button
 		btn.attr("type", "button");
 		btn.addClass('listButton').text('Delete');
 
@@ -18,11 +18,6 @@ $(document).ready(function() {
 		$('#input').val(""); //usual text -- html  but this this is form input, it needs to be value
 
 		$('#input').focus();
-
-		//add delete button
-		var deleteButton = $('<li>');
-		// deleteButton.type('button'); //how to make this a form / input type?
-		// $('#listTable').append(deleteButton);
 	})
 
 
